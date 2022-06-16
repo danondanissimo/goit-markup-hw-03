@@ -52,6 +52,7 @@ body {
 }
 
 .container {
+  outline: 1px solid blue;
 }
 
 /* Контакты */
@@ -71,14 +72,18 @@ body {
 
 .hero {
   background-color: var(--additional-background-color);
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 40px;
   color: var(--accent-secondary);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -89,16 +94,11 @@ body {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
-  margin-top: 30px;
-  margin-right: auto;
-  margin-bottom: 200px;
-  margin-left: auto;
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
   display: flex;
-  text-align: center;
   cursor: pointer;
   letter-spacing: 0.06em;
 }
@@ -124,6 +124,11 @@ body {
   overflow: hidden;
 }
 
+.section-features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-team {
   background-color: var(--secondary-background-color);
 }
@@ -136,6 +141,8 @@ body {
 }
 
 .feature-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -164,6 +171,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .link {
