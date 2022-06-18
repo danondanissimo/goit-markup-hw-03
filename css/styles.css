@@ -171,12 +171,13 @@ body {
 }
 
 .section-features {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.feature-list {
-  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-team {
@@ -188,9 +189,6 @@ body {
   font-size: 36px;
   line-height: 1.2;
   text-align: Center;
-}
-
-.feature-list {
 }
 
 .feature-title {
@@ -207,6 +205,34 @@ body {
   color: var(--secondary-color);
   line-height: 1.7;
 }
+
+.feature-list {
+  display: flex;
+  margin: -15px;
+}
+
+.feature-list-item {
+  width: 270px;
+  margin: 15px;
+}
+
+.section-advantages {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Advantages */
+
+.advantages-list {
+  display: flex;
+}
+
+.advantes {
+  margin-right: 30px;
+}
+
+/* Персонал */
 
 .staff {
   font-size: 16px;
@@ -267,6 +293,13 @@ body {
 
 /* Портфолио */
 
+.main-project-container {
+  padding-left: 215px;
+  padding-right: 215px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .project-buttons {
   display: flex;
 }
@@ -274,7 +307,26 @@ body {
 .project-container {
   display: flex;
   flex-wrap: wrap;
+  background-color: teal;
+  margin: -15px;
 }
+
+.project-item {
+  background-color: tomato;
+  width: 370px;
+  margin: 15px;
+  /* width: calc((100% - 60px) / 3); */
+  /* margin-right: 30px;
+  margin-bottom: 30px; */
+}
+/* 
+.project-item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.project-item:nth-child(-n + 3) {
+  margin-bottom: 0px;
+} */
 
 .filter {
   background-color: var(--secondary-background-color);
