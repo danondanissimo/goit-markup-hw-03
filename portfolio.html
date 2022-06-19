@@ -17,6 +17,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header>
       <div class="container main-nav">
@@ -44,18 +45,20 @@
         </ul>
       </div>
     </header>
+
     <main>
-      <section>
-        <!--Скрытый заголовок-->
-        <h1 class="visually-hidden">Проекты</h1>
-        <div class="main-project-container">
+      <section class="section-projects">
+        <div class="container">
+          <!--Скрытый заголовок-->
+          <h1 class="visually-hidden">Проекты</h1>
           <ul class="project-buttons list">
-            <li><button type="button" class="filter">Все</button></li>
-            <li><button type="button" class="filter">Веб-сайты</button></li>
-            <li><button type="button" class="filter">Приложения</button></li>
-            <li><button type="button" class="filter">Дизайн</button></li>
-            <li><button type="button" class="filter">Маркетинг</button></li>
+            <li class="filter-body"><button type="button" class="filter">Все</button></li>
+            <li class="filter-body"><button type="button" class="filter">Веб-сайты</button></li>
+            <li class="filter-body"><button type="button" class="filter">Приложения</button></li>
+            <li class="filter-body"><button type="button" class="filter">Дизайн</button></li>
+            <li class="filter-body"><button type="button" class="filter">Маркетинг</button></li>
           </ul>
+
           <ul class="project-container list">
             <li class="project-item">
               <a href="" class="link">
@@ -64,6 +67,7 @@
                 <p class="project-text">Веб-сайт</p>
               </a>
             </li>
+
             <li class="project-item">
               <a href="" class="link">
                 <img
@@ -75,6 +79,7 @@
                 <p class="project-text">Дизайн</p>
               </a>
             </li>
+
             <li class="project-item">
               <a href="" class="link">
                 <img src="./images/project3.jpg" alt="Логотип в виде рыбы в прыжке." width="370" />
@@ -82,6 +87,7 @@
                 <p class="project-text">Приложение</p>
               </a>
             </li>
+
             <li class="project-item">
               <a href="" class="link">
                 <img src="./images/project4.jpg" alt="Полноразмерные наушники." width="370" />
@@ -89,6 +95,7 @@
                 <p class="project-text">Маркетинг</p>
               </a>
             </li>
+
             <li class="project-item">
               <a href="" class="link">
                 <img src="./images/project5.jpg" alt="Две картонные коробки." width="370" />
@@ -96,6 +103,7 @@
                 <p class="project-text">Приложение</p>
               </a>
             </li>
+
             <li class="project-item">
               <a href="" class="link">
                 <img
@@ -107,6 +115,7 @@
                 <p class="project-text">Веб-сайт</p>
               </a>
             </li>
+
             <li class="project-item">
               <a href="" class="link">
                 <img src="./images/project7.jpg" alt="Открытая книга с фотографиями." width="370" />
@@ -114,6 +123,7 @@
                 <p class="project-text">Дизайн</p>
               </a>
             </li>
+
             <li class="project-item">
               <a href="" class="link">
                 <img
@@ -125,6 +135,7 @@
                 <p class="project-text">Маркетинг</p>
               </a>
             </li>
+
             <li class="project-item">
               <a href="" class="link">
                 <img
@@ -140,29 +151,34 @@
         </div>
       </section>
     </main>
-    <footer class="footer container">
-      <a href="./index.html" class="logo link"
-        ><span class="logo-span">Web</span><span class="logo-span-footer">Studio</span></a
-      >
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a
-              href="https://goo.gl/maps/bSMqidBmeN5zZb8a9"
-              target="_blank"
-              rel="noopener nofollow noreferrer"
-              class="location link"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li>
-            <a href="mailto:info@devstudio.com" class="footer-contacts link">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+380.961111111" class="footer-contacts link">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="logo link"
+          ><span class="logo-span">Web</span><span class="logo-span-footer">Studio</span></a
+        >
+        <address class="address">
+          <ul class="list">
+            <li>
+              <a
+                href="https://goo.gl/maps/bSMqidBmeN5zZb8a9"
+                target="_blank"
+                rel="noopener nofollow noreferrer"
+                class="location link"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="footer-contacts link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380.961111111" class="footer-contacts link">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
