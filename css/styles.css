@@ -317,7 +317,7 @@ section {
 
 .location.link:hover,
 .location.link:focus {
-  color: var(--accent-secondary);
+  color: var(--accent);
 }
 
 .footer-contacts {
