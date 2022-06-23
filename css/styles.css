@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 /* Утилиты */
@@ -134,9 +134,10 @@ section {
 }
 
 .contacts {
-  /* background-color: red; */
+  /* background-color: lavender; */
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 22px;
   display: block;
   color: var(--secondary-color);
   line-height: 1.14;
@@ -149,13 +150,33 @@ section {
   color: var(--accent);
 }
 
+/* .contacts.link::before {
+  content: '';
+  height: 12px;
+  width: 16px;
+  outline: 1px solid red;
+  background-image: url(./css-images/envelope.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
 /* Герой */
 
 .hero {
-  background-color: var(--additional-background-color);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+  background-color: var(--additional-background-color);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(./css-images/background.jpg);
+  max-width: 1600px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -227,7 +248,7 @@ section {
 }
 
 .feature-title {
-  margin-top: 0px;
+  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -249,6 +270,32 @@ section {
 .feature-list-item {
   width: 270px;
   margin: 15px;
+}
+
+.feature-list-item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--secondary-background-color);
+}
+
+.feature-list-item.icon-satellite::before {
+  background-image: url(./css-images/satellite.png);
+}
+
+.feature-list-item.icon-wall-clock::before {
+  background-image: url(./css-images/wall-clock.png);
+}
+
+.feature-list-item.icon-notebook::before {
+  background-image: url(./css-images/notebook.png);
+}
+
+.feature-list-item.icon-astronaut::before {
+  background-image: url(./css-images/astronaut.png);
 }
 
 .section-team {
