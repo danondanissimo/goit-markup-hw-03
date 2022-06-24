@@ -150,6 +150,28 @@ section {
   color: var(--accent);
 }
 
+.icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.icon:hover {
+  fill: var(--accent);
+}
+
+.mail-icon {
+  height: 12px;
+  width: 16px;
+
+  outline: 1px solid black;
+}
+
+.phone-icon {
+  height: 16px;
+  width: 10px;
+  outline: 1px solid black;
+}
+
 /* .contacts.link::before {
   content: '';
   height: 12px;
